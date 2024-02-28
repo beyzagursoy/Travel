@@ -1,0 +1,41 @@
+.paris-info {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.paris-info .info-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(50% - 40px);
+  max-width: 300px;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.info-box h2 {
+  margin-bottom: 10px;
+  margin-top: 0;
+  align-self: flex-start;
+}
+
+.info-box p {
+  margin: 0;
+}
+
+.info-box:not(:last-child) {
+  margin-bottom: 20px;
+}
